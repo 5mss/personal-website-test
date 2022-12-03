@@ -1,25 +1,25 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Haomiao Wu
 
 # Full name (for SEO)
-first_name: Alice
+first_name: Haomiao
 last_name: Wu
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Ph.D. Student at Yale University
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Department of Computer Science, Yale University
+    url: https://cpsc.yale.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
