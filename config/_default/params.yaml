@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
+  theme_day: apogee
+  theme_night: apogee
   font: minimal
   font_size: L
 
@@ -112,3 +112,7 @@ extensions:
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
+
+# icon:
+#   pack:
+#     ai: true

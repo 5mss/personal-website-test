@@ -3,8 +3,10 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
+title: Haomiao # Website name
 baseURL: 'https://example.com/' # Website URL
+relativeURLs: true
+uglyURLs: true
 
 ############################
 ## LANGUAGE
@@ -21,10 +23,14 @@ removePathAccents: true
 
 module:
   imports:
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
+    # - path: github.com/5mss/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
+    # - path: github.com/5mss/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
+    # - path: github.com/5mss/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal
+    # - path: github.com/5mss/wowchemy-hugo-themes/modules/wowchemy/v5
+    - path: wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
+    - path: wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
+    - path: wowchemy-hugo-themes/modules/wowchemy-plugin-reveal
+    - path: wowchemy-hugo-themes/modules/wowchemy
 
 ############################
 ## ADVANCED
